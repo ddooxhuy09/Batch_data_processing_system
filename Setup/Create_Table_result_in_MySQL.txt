@@ -1,0 +1,19 @@
+use data_engineer;
+
+create table result(
+    job_id double null,
+    dates date null,
+    hours int null,
+    publisher_id double null,
+    campaign_id double null,
+    group_id double null,
+    bid_set double null,
+    clicks long null,
+    spend_hour double null,
+    conversion long null,
+    qualified_application long null,
+    disqualified_application long null,
+    company_id integer null,
+    sources varchar(255) not null,
+    latest_update_time timestamp not null
+)
